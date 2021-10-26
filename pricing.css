@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: #FEF5E7;
+	overflow-y: hidden;
+}
+
+/*Header*/
+
+.header{
+	text-align: center;
+	justify-content: space-between;
+	height: 50px;
+	justify-content: space-between;
+}
+.header h2{
+	display: inline-flex;
+	padding: 10px 30px;
+	position: absolute;
+	left: 10px;
+	top: 1%;
+}
+.header ul{
+	margin-top: 1.2%;
+	list-style: none;
+	left: 50%
+	padding:10px 30px;
+	text-decoration: none;
+	display: inline-flex;
+}
+.header li{
+	padding: 5px 25px;
+	cursor: pointer;
+}
+.header a{
+	color: black;
+	text-decoration: none;
+}
+.header a:hover{
+	color: #D35400;
+}
+
+.social{
+	list-style: none;
+	position: absolute;
+	right:80px;
+	padding-right: 0px;
+	margin-top:5px;
+	display: inline-flex;
+}
+.social li{
+	list-style: none;
+	padding: 8px 8px;
+}
+.social i{
+	border: none;
+	padding: 8px 10px;
+	text-align: center;
+	border-radius: 50%;
+	border-width: 1.5px;
+	color: white;
+	background: #D35400;
+}
+.social i:hover{
+	box-shadow: 0 1px 8px 0 #D35400;
+}
+
+/* main */
+
+.box1{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	height: 530px;
+	width: 300px;
+	background: white;
+	border-radius: 8px;
+}
+.box1:hover{
+	box-shadow: 0 1px 25px 2px #F5CBA7;
+}
+.box2{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	height: 530px;
+	width: 300px;
+	background: white;
+	border-radius: 8px;
+}
+.box2:hover{
+	box-shadow: 0 1px 25px 2px #F5CBA7;
+}
+.box3{
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	height: 530px;
+	width: 300px;
+	background: white;
+	border-radius: 8px;
+}
+.box3:hover{
+	box-shadow: 0 1px 25px 2px #F5CBA7;
+}
+.main h2{
+	background: white;
+	text-align: center;
+	margin-top: 10px;
+}
+.main p{
+	background: white;
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 13px;
+}
+.main ul{
+	line-height: 40px;
+	text-align: center;
+}
+.main li{
+	background: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: 13px;
+}
+.main i{
+	background: white;
+}
+.main button{
+	background: white;
+	top: 90%;
+	position: absolute;
+	margin-left: 95px;
+	text-align: center;
+	outline: none;
+	border: solid;
+	border-width: 1.5px;
+	padding: 8px 30px;
+	border-color: grey;
+	cursor: pointer;
+}
+.main button:hover{
+	background: #D35400;
+	color: white;
+	border-color: white;
+}
+.main span{
+	position: absolute;
+	background: white;
+	margin-left: 105px;
+	top: 75%;
+	font-size: 30px;	
+}
+sub{
+	font-size: 15px;
+	background: white;
+}
+.lower{
+	position: absolute;
+}
+sup{
+	font-size: 15px;
+	background: white;
+}

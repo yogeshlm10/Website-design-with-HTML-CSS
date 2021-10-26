@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: #FEF5E7;
+	overflow-y: hidden;
+}
+
+/*Header*/
+
+.header{
+	text-align: center;
+	justify-content: space-between;
+	height: 50px;
+	justify-content: space-between;
+}
+.header h2{
+	display: inline-flex;
+	padding: 10px 30px;
+	position: absolute;
+	left: 10px;
+	top: 1%;
+}
+.header ul{
+	margin-top: 1.2%;
+	list-style: none;
+	left: 50%
+	padding:10px 30px;
+	text-decoration: none;
+	display: inline-flex;
+}
+.header li{
+	padding: 5px 25px;
+	cursor: pointer;
+}
+.header a{
+	color: black;
+	text-decoration: none;
+}
+.header a:hover{
+	color: #D35400;
+}
+
+.social{
+	list-style: none;
+	position: absolute;
+	right:80px;
+	padding-right: 0px;
+	margin-top:5px;
+	display: inline-flex;
+}
+.social li{
+	list-style: none;
+	padding: 8px 8px;
+}
+.social i{
+	border: none;
+	padding: 8px 10px;
+	text-align: center;
+	border-radius: 50%;
+	border-width: 1.5px;
+	color: white;
+	background: #D35400;
+}
+.social i:hover{
+	box-shadow: 0 1px 8px 0 #D35400;
+}
+
+/* Form Frame */
+.frame{
+	height: 400px;
+	width: 500px;
+	background: #F6DDCC;
+	margin-top:100px;
+	border-radius: 10px;
+	margin-left: 500px;
+	margin-bottom: 60px;
+	box-shadow: 0 2px 20px 0 #616A6B;
+}
+.frame img{
+	width: 150px;
+	position: absolute;
+	left: 669px;
+	top: 90px;
+	border-radius: 50%;
+}
+.main p{
+	position: absolute;
+	background: #F6DDCC;
+	padding-left: 200px;
+	margin-top: 50px;
+	font-family: 'Rubik', sans-serif;
+	color: #273746; 
+	font-weight: 200px;
+}
+.main span{
+	color: #515A5A;
+	background: #F6DDCC;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 30px;
+	font-family: 'Rubik', sans-serif;
+	line-height: 25px;
+}
+.main button{
+	outline: none;
+	border: none;
+	background: #7DCEA0;
+	color: white;
+	padding: 10px;
+	position: absolute;
+	margin-top:280px;
+	margin-left: 30px;
+	border-radius: 8px;
+	width: 180px;
+	cursor: pointer;
+}
+.form{
+	width: 100px;
+	background: #F6DDCC;
+	margin-left: 250px;
+	margin-top:-60px;
+}
+.form span{
+	font-size: 10px;
+	font-style: italic;
+}
+.form h3{
+	position: absolute;
+	margin-left: 100px;
+	background: #F6DDCC;
+	color: grey;
+	font-size: 10px;
+	font-style: normal;
+}
+.text{
+	margin: 5px;
+	width: 180px;
+	border:none;
+	background: #F6DDCC;
+	border-bottom: solid;
+	border-width: 1px;
+	font-style: italic;
+	font-size: 12px;
+}
+.submit{
+	margin-right: 0px;
+	margin-left: 9px;
+	margin-top: 30px;
+	border: none;
+	outline: none;
+	padding: 8px 12px;
+	background: #D35400;
+	opacity: 0.8;
+	color: white;
+	width: 80px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.connect{
+	margin-left: 6px;
+	margin-top: 65px;
+}
+.connect button{
+	background-color: #2E86C1;
+	cursor: pointer;
+}
+.connect1{
+	margin-left: 6px;
+	margin-top: 45px;
+}
+.connect1 button{
+	background-color: #EC7063;
+	cursor: pointer;
+}
